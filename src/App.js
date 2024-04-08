@@ -1,9 +1,9 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Navbar } from "./components/navigation/navbar";
+import { Navbar } from "./components/navigation/Navbar";
 import { Shop } from "./pages/products/shop";
 import { ContactUsPage } from "./pages/contact/ContactUsPage";
-import { Cart } from "./pages/cart/cart";
+import { Cart } from "./pages/cart/Cart";
 import { AboutUsPage } from "./pages/about/about";
 import { ShopContextProvider } from "./context/shop-context";
 import { AppFooter } from "./components/footer/footer";
@@ -25,7 +25,7 @@ function App() {
             <Router>
               <Navbar />
               <Routes>
-                <Route path="/home" element={<HomePage />} />
+                <Route path="/" element={<HomePage />} />
                 <Route path="/products" element={<Shop />} />
                 <Route path="/about-us" element={<AboutUsPage />} />
                 <Route path="/contact" element={<ContactUsPage />} />
