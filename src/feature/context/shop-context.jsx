@@ -1,5 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 import { PRODUCTS } from "../../products";
+import Cookies from "universal-cookie";
 
 export const ShopContext = createContext(null);
 
@@ -12,7 +13,15 @@ const getDefaultCart = () => {
 };
 
 export const ShopContextProvider = (props) => {
+  const cookies = new Cookies();
   const [cartItems, setCartItems] = useState(getDefaultCart());
+
+  useEffect(() => {
+    const savedCartItems = cookies.get("cartItems");
+    if (savedCartItems) {
+      setCartItems(savedCartItems);
+    }
+  }, []);
 
   const getTotalCartAmount = () => {
     let totalAmount = 0;
@@ -26,19 +35,26 @@ export const ShopContextProvider = (props) => {
   };
 
   const addToCart = (itemId) => {
-    setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
+    const updatedCartItems = { ...cartItems, [itemId]: cartItems[itemId] + 1 };
+    setCartItems(updatedCartItems);
+    cookies.set("cartItems", updatedCartItems, { path: "/" });
   };
 
   const removeFromCart = (itemId) => {
-    setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
+    const updatedCartItems = { ...cartItems, [itemId]: cartItems[itemId] - 1 };
+    setCartItems(updatedCartItems);
+    cookies.set("cartItems", updatedCartItems, { path: "/" });
   };
 
   const updateCartItemCount = (newAmount, itemId) => {
-    setCartItems((prev) => ({ ...prev, [itemId]: newAmount }));
+    const updatedCartItems = { ...cartItems, [itemId]: newAmount };
+    setCartItems(updatedCartItems);
+    cookies.set("cartItems", updatedCartItems, { path: "/" });
   };
 
   const checkout = () => {
     setCartItems(getDefaultCart());
+    cookies.remove("cartItems");
   };
 
   const contextValue = {

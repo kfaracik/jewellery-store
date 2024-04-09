@@ -38,7 +38,7 @@ export const PRODUCTS = [
     price: "2000",
     productImage: product4,
     alt: "Rose Gold Wedding Band - Price: $2000",
-    rating: 6,
+    rating: 3.5,
   },
   {
     id: 5,
@@ -70,6 +70,6 @@ export const PRODUCTS = [
     price: "4000",
     productImage: product8,
     alt: "Sterling Silver Stackable Rings Set - Price: $4000",
-    rating: 6,
+    rating: 4.5,
   },
 ];

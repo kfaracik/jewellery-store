@@ -8,7 +8,6 @@ import { AppFooter } from "./feature/components/footer/AppFooter";
 import { ShopContextProvider } from "./feature/context/shop-context";
 import { HomePage } from "./feature/pages/home/HomePage";
 import Cookies from "universal-cookie";
-// import { Cart } from "./feature/pages/cart/cart";
 import "./App.css";
 import { Cart } from "./feature/pages/cart/Cart";
 

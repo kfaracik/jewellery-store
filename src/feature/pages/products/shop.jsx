@@ -5,7 +5,8 @@ import TextField from "@mui/material/TextField";
 import SearchIcon from "@mui/icons-material/Search";
 import Typography from "@mui/material/Typography";
 import "./shop.css";
-import { Pagination, Grid } from "@mui/material";
+import { Pagination, Grid, Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const CenteredContainer = ({ children }) => (
   <div className="centeredContainer">{children}</div>
@@ -55,6 +56,16 @@ export const Shop = () => {
             ))
           )}
         </Grid>
+
+        <Link to="/cart" style={{ textDecoration: "none" }}>
+          <Button
+            variant="contained"
+            color="primary"
+            style={{ marginTop: "20px" }}
+          >
+            Go to Cart
+          </Button>
+        </Link>
 
         <div style={{ marginTop: "20px" }}>
           <Pagination count={3} defaultPage={1} boundaryCount={2} />

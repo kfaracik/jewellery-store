@@ -4,6 +4,8 @@ import { CartItem } from "./CartItem";
 import { useNavigate } from "react-router-dom";
 import "./Cart.css";
 import { ShopContext } from "../../context/shop-context";
+import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
 export const Cart = () => {
   const { cartItems, getTotalCartAmount, checkout } = useContext(ShopContext);
@@ -38,7 +40,18 @@ export const Cart = () => {
           </button>
         </div>
       ) : (
-        <h1> Your Shopping Cart is Empty</h1>
+        <div>
+          <h1> Your Shopping Cart is Empty</h1>
+          <Link to="/products" style={{ textDecoration: "none" }}>
+            <Button
+              variant="contained"
+              color="primary"
+              style={{ marginTop: "20px" }}
+            >
+              Go to Shop
+            </Button>
+          </Link>
+        </div>
       )}
     </div>
   );

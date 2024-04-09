@@ -29,86 +29,95 @@ export const AboutUsPage = () => {
         </div>
       </div>
 
-
       <div className="section">
-      <Divider />
+        <Divider />
         <h2 className="section-title">Technologies We Use</h2>
         <div className="section-content">
-          <h3>Technologies and libraries Used</h3>
-          <ul className="tech-list">
-            <li>React.js: Frontend development</li>
-            <li>CSS: Styling and layout</li>
-            <li>JavaScript: Frontend scripting</li>
-            <li>Webpack: Module bundling</li>
-            <li>HTML5</li>
-            <li>React material</li>
-            <li>yarn</li>
-            <li>framer-motion</li>
-          </ul>
+          <h3>Technologies and Libraries Used</h3>
+          <table className="tech-table">
+            <thead>
+              <tr>
+                <th>Technologia</th>
+                <th>Opis</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>React.js</td>
+                <td>Frontend development</td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+                <td>Styling and layout (zastosowano kilka możliwości stylowania CSS)</td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+                <td>Frontend scripting</td>
+              </tr>
+              <tr>
+                <td>Webpack</td>
+                <td>Module bundling</td>
+              </tr>
+              <tr>
+                <td>HTML5</td>
+                <td>Struktura dokumentu</td>
+              </tr>
+              <tr>
+                <td>React Material</td>
+                <td>Biblioteka komponentów</td>
+              </tr>
+              <tr>
+                <td>Yarn</td>
+                <td>Menadżer pakietów</td>
+              </tr>
+              <tr>
+                <td>Framer Motion</td>
+                <td>Animacje</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
-          <Divider />
-          <h3>Navigation Design</h3>
+      <div className="section">
+        <Divider />
+        <h2 className="section-title">Dlaczego Strona Spełnia Wymagania</h2>
+        <div className="section-content">
+          <h3>Poprawność i Kompatybilność</h3>
           <p>
-            Navigation is designed to be intuitive and user-friendly.
+            Strona jest zbudowana zgodnie z zasadami HTML5 i CSS, zapewniając
+            poprawność deklaracji typu oraz nietrywialne formatowanie styli.
+            Ponadto, przetestowaliśmy kompatybilność w różnych przeglądarkach,
+            zapewniając, że strona wyświetla się poprawnie we wszystkich
+            popularnych przeglądarkach.
           </p>
-          <p className="nav-details">
-            Accessibility: The navigation layout is designed to be intuitive and
-            accessible, ensuring that users can easily locate and navigate
-            between different sections of the website.
-          </p>
-          <p className="nav-details">
-            User Experience: The navigation structure prioritizes user experience by offering clear
-            and straightforward pathways to essential sections, enhancing
-            usability and encouraging exploration.
-          </p>
-          <p className="nav-details">
-            Consistency: The navbar
-            remains consistent across all pages, providing users with a familiar
-            interface and facilitating seamless navigation throughout the
-            website.
-          </p>
-          <p className="nav-details">
-            Efficiency: The navigation layout is designed to optimize
-            efficiency, allowing users to accomplish tasks such as browsing
-            products, learning about the brand, or contacting support with
-            minimal effort and maximum convenience.
-          </p>
+          <h3>Dostępność dla Niepełnosprawnych</h3>
           <p>
-            Main goal is to provide a
-            seamless browsing experience for customers.
+            Dostępność dla osób niepełnosprawnych, umożliwia nawigacja
+            za pomocą klawisza tabulacji, co ułatwia poruszanie się po stronie
+            osobom korzystającym z czytników ekranowych. Dodatkowo, wszystkie
+            istotne obrazki posiadają odpowiednie teksty alternatywne, które są
+            czytelne dla oprogramowania czytającego.
           </p>
-
-          <Divider />
-          <h3>Why Our Website Meets Requirements</h3>
+          <h3>Zastosowanie Technologii</h3>
           <p>
-            We believe our website meets the requirements outlined in this
-            document for several reasons:
+            Oprócz HTML i CSS, wykorzystaliśmy różnorodne technologie, takie jak
+            React.js, JavaScript i React Material, aby stworzyć dynamiczny i
+            interaktywny serwis.
           </p>
-          <ul className="req-list">
-            <li>
-              Accessibility: We've ensured all images have appropriate alt
-              text for screen readers, and our navigation is keyboard
-              accessible.
-            </li>
-            <li>
-              Responsive Design: Our website is designed to be responsive and
-              accessible on various devices, ensuring a consistent experience
-              for all users.
-            </li>
-            <li>
-              Clear Navigation: We've carefully planned and organized our
-              navigation to make it easy for users to find what they're
-              looking for.
-            </li>
-            <li>
-              Content Quality: Our product descriptions are informative and
-              descriptive, helping users make informed purchasing decisions.
-            </li>
-            <li>
-              Performance: We've optimized our website for performance to
-              ensure fast loading times and a smooth browsing experience.
-            </li>
-          </ul>
+          <h3>Spójny System Nawigacji</h3>
+          <p>
+            Serwis zawiera spójny i wygodny system nawigacji, który ułatwia
+            użytkownikom poruszanie się po stronie i odnajdywanie potrzebnych
+            informacji.
+          </p>
+          <h3>Wygodny Interfejs Użytkownika</h3>
+          <p>
+            Projektując stronę, kładziemy nacisk na wygodę użytkownika, zapewniając
+            czytelne i przyjemne doświadczenie przeglądania treści. Unikamy
+            nieczytelnych zestawień kolorów i mikroskopijnych czcionek, aby
+            zapewnić komfort korzystania z serwisu.
+          </p>
         </div>
       </div>
     </div>
