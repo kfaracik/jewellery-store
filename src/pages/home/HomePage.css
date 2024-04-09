@@ -1,77 +1,69 @@
 .home-container {
-    margin: 0 auto;
-    padding: 20px;
-    max-width: 1200px;
-  }
-  
-  .content {
-    text-align: center;
-  }
-  
-  .header {
-    margin-bottom: 50px;
-  }
-  
-  .collection-item img {
-    width: 50%;
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-  
-  .product-description {
-    text-align: left;
-    font-size: 16px;
-    line-height: 1.6;
-  }
-  
-  .header h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
-  }
-  
-  .header p {
-    font-size: 18px;
-    color: #666;
-  }
-  
-  .collection {
-    margin-top: 40px;
-  }
-  
-  .collection h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .collection-item {
-    margin: 0 10px;
-  }
-  
-  .collection-item img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-  }
-  
-  .collection-item p {
-    margin-top: 10px;
-    font-size: 16px;
-    color: #333;
-  }
-  
-  .about {
-    margin-top: 40px;
-  }
-  
-  .about h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .about p {
-    font-size: 16px;
-    color: #333;
-  }
+  margin: auto;
+  max-width: 1200px;
+  padding: 20px;
+}
 
-  
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 18px;
+  color: #666;
+}
+
+.collection {
+  margin-top: 30px;
+}
+
+.collection-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.collection-item {
+  max-width: 400px;
+  margin: 0 20px 20px 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.collection-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-description {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.about {
+  margin-top: 30px;
+}
+
+.about h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 16px;
+  color: #333;
+}
+
+.link {
+  color: blue;
+  text-decoration: underline;
+}
