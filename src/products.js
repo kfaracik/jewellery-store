@@ -1,10 +1,10 @@
 import product1 from "./assets/products/1.webp";
 import product2 from "./assets/products/2.webp";
-import product3 from "./assets/products/3.webp";
-import product4 from "./assets/products/4.webp";
+import product3 from "./assets/products/3.jpeg";
+import product4 from "./assets/products/4.jpeg";
 import product5 from "./assets/products/5.webp";
-import product6 from "./assets/products/6.webp";
-import product7 from "./assets/products/7.webp";
+import product6 from "./assets/products/6.jpeg";
+import product7 from "./assets/products/7.jpeg";
 import product8 from "./assets/products/8.webp";
 
 export const PRODUCTS = [
@@ -14,6 +14,7 @@ export const PRODUCTS = [
     price: "500",
     productImage: product1,
     alt: "Diamond Solitaire Ring - Price: $500",
+    rating: 4,
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ export const PRODUCTS = [
     price: "1000",
     productImage: product2,
     alt: "Emerald Cut Engagement Ring - Price: $1000",
+    rating: 4,
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ export const PRODUCTS = [
     price: "1500",
     productImage: product3,
     alt: "Sapphire and Diamond Cluster Ring - Price: $1500",
+    rating: 5,
   },
   {
     id: 4,
@@ -35,6 +38,7 @@ export const PRODUCTS = [
     price: "2000",
     productImage: product4,
     alt: "Rose Gold Wedding Band - Price: $2000",
+    rating: 6,
   },
   {
     id: 5,
@@ -42,6 +46,7 @@ export const PRODUCTS = [
     price: "2500",
     productImage: product5,
     alt: "Vintage Pearl Cocktail Ring - Price: $2500",
+    rating: 4,
   },
   {
     id: 6,
@@ -49,6 +54,7 @@ export const PRODUCTS = [
     price: "3000",
     productImage: product6,
     alt: "Ruby and Diamond Eternity Ring - Price: $3000",
+    rating: 5,
   },
   {
     id: 7,
@@ -56,6 +62,7 @@ export const PRODUCTS = [
     price: "3500",
     productImage: product7,
     alt: "Princess Cut Diamond Ring - Price: $3500",
+    rating: 5,
   },
   {
     id: 8,
@@ -63,5 +70,6 @@ export const PRODUCTS = [
     price: "4000",
     productImage: product8,
     alt: "Sterling Silver Stackable Rings Set - Price: $4000",
+    rating: 6,
   },
 ];
