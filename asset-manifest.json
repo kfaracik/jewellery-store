@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/jewellery-store/static/css/main.32183e00.css",
-    "main.js": "/jewellery-store/static/js/main.f51f3cb8.js",
-    "static/media/collection.webp": "/jewellery-store/static/media/collection.b971e2484dc1f04fe76b.webp",
-    "static/media/8.webp": "/jewellery-store/static/media/8.bda478c8e524ca45f353.webp",
-    "static/media/1.webp": "/jewellery-store/static/media/1.e0a7a16712547c850612.webp",
-    "static/media/5.webp": "/jewellery-store/static/media/5.e1785aa480babee80f35.webp",
-    "static/media/3.jpeg": "/jewellery-store/static/media/3.a94bd9f9d48fb40b9036.jpeg",
-    "static/media/7.jpeg": "/jewellery-store/static/media/7.951eec02958ff8449e5d.jpeg",
-    "static/media/4.jpeg": "/jewellery-store/static/media/4.276674f04dc55155aa59.jpeg",
-    "static/media/2.webp": "/jewellery-store/static/media/2.c9eabe2af123ff7de071.webp",
-    "index.html": "/jewellery-store/index.html",
-    "main.32183e00.css.map": "/jewellery-store/static/css/main.32183e00.css.map",
-    "main.f51f3cb8.js.map": "/jewellery-store/static/js/main.f51f3cb8.js.map"
+    "main.css": "/static/css/main.32183e00.css",
+    "main.js": "/static/js/main.6478d6fd.js",
+    "static/media/collection.webp": "/static/media/collection.b971e2484dc1f04fe76b.webp",
+    "static/media/8.webp": "/static/media/8.bda478c8e524ca45f353.webp",
+    "static/media/1.webp": "/static/media/1.e0a7a16712547c850612.webp",
+    "static/media/5.webp": "/static/media/5.e1785aa480babee80f35.webp",
+    "static/media/3.jpeg": "/static/media/3.a94bd9f9d48fb40b9036.jpeg",
+    "static/media/7.jpeg": "/static/media/7.951eec02958ff8449e5d.jpeg",
+    "static/media/4.jpeg": "/static/media/4.276674f04dc55155aa59.jpeg",
+    "static/media/2.webp": "/static/media/2.c9eabe2af123ff7de071.webp",
+    "index.html": "/index.html",
+    "main.32183e00.css.map": "/static/css/main.32183e00.css.map",
+    "main.6478d6fd.js.map": "/static/js/main.6478d6fd.js.map"
   },
   "entrypoints": [
     "static/css/main.32183e00.css",
-    "static/js/main.f51f3cb8.js"
+    "static/js/main.6478d6fd.js"
   ]
 }
