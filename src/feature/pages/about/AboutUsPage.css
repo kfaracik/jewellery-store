@@ -1,0 +1,33 @@
+.about-us-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.section-content {
+  line-height: 1.6;
+}
+
+.tech-list,
+.req-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-details {
+  margin-left: 20px;
+}
+
+.nav-details::before {
+  content: "•";
+  margin-right: 10px;
+}

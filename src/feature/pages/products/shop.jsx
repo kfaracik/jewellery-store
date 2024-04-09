@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { PRODUCTS } from "../../products";
+import { PRODUCTS } from "../../../products";
 import { Product } from "./product";
 import TextField from "@mui/material/TextField";
 import SearchIcon from "@mui/icons-material/Search";

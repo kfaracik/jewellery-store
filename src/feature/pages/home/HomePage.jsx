@@ -1,7 +1,7 @@
 import React from "react";
 import "./HomePage.css";
 import Divider from "@mui/material/Divider";
-import collectionImg from "../../assets/collection/collection.webp";
+import collectionImg from "../../../assets/collection/collection.webp";
 import { JewelryStoreTimeline } from "./components/Timeline";
 import { motion } from "framer-motion";
 import Button from "@mui/material/Button";
