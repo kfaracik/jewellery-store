@@ -1,0 +1,27 @@
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-form {
+  flex: 1;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  margin-right: 10px;
+}
